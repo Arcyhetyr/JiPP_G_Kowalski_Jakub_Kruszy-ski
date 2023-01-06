@@ -1,0 +1,14 @@
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.exe
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.deps.json
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.runtimeconfig.json
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.runtimeconfig.dev.json
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.dll
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\bin\Debug\netcoreapp3.1\Praca_Domowa.pdb
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.AssemblyInfoInputs.cache
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.AssemblyInfo.cs
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.dll
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.pdb
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.genruntimeconfig.cache
+C:\Users\Jakub\source\repos\Praca_Domowa\Praca_Domowa\obj\Debug\netcoreapp3.1\Praca_Domowa.csproj.AssemblyReference.cache
