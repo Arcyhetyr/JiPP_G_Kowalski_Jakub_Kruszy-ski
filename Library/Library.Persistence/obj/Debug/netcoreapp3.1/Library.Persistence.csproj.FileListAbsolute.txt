@@ -1,0 +1,13 @@
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\bin\Debug\netcoreapp3.1\Library.Persistence.deps.json
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\bin\Debug\netcoreapp3.1\Library.Persistence.dll
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\bin\Debug\netcoreapp3.1\Library.Persistence.pdb
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\bin\Debug\netcoreapp3.1\Library.Domain.dll
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\bin\Debug\netcoreapp3.1\Library.Domain.pdb
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.csproj.AssemblyReference.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.AssemblyInfoInputs.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.AssemblyInfo.cs
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.csproj.CopyComplete
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.dll
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Persistence\obj\Debug\netcoreapp3.1\Library.Persistence.pdb

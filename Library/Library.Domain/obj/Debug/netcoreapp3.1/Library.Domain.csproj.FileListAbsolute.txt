@@ -1,0 +1,10 @@
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\bin\Debug\netcoreapp3.1\Library.Domain.deps.json
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\bin\Debug\netcoreapp3.1\Library.Domain.dll
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\bin\Debug\netcoreapp3.1\Library.Domain.pdb
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.csproj.AssemblyReference.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.AssemblyInfoInputs.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.AssemblyInfo.cs
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.dll
+C:\Users\Jakub\iCloudDrive\Studia\3rok\grzegorzkowalski\Library\Library.Domain\obj\Debug\netcoreapp3.1\Library.Domain.pdb
