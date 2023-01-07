@@ -1,6 +1,9 @@
 ﻿using System;
 using Library.Domain;
 using Library.Persistence;
+using System.Collections.Generic;
+using System.Text;
+using System.Globalization;
 
 namespace Library.ConsoleApp
 {
@@ -8,8 +11,13 @@ namespace Library.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Book book = new Book("Ślepnąc od świateł", "Jakub Żulczyk", 2015, "ISBN", 10, 19.99m);
             BooksRepository repository = new BooksRepository();
+            BooksService Boook = new BooksService(repository);
+            OrdersRepository ordersRepository = new OrdersRepository();
+            OrderService ordersService = new OrderService(ordersRepository);
+
+            Book book = new Book("Ślepnąc od świateł", "Jakub Żulczyk", 2015, "ISBN", 10, 19.99m);
+         
             while (true)
             {
                 Console.WriteLine("Type your Login:");
@@ -26,10 +34,11 @@ namespace Library.ConsoleApp
                     Console.WriteLine("Access Granted");
                 
                 string command;
-                    BooksService Boook = new BooksService();
+
+                   
                     while (true)
                     {
-                        // Console.Clear();
+                       // Console.Clear();
                         Console.WriteLine("Add - add a book");
                         Console.WriteLine("Del - delete a book");
                         Console.WriteLine("View - Display all books");
@@ -45,9 +54,8 @@ namespace Library.ConsoleApp
                             Console.WriteLine("Im leaving, bye!");
                             break;
                         }
-                        string continue_while;
-                        Console.WriteLine("Do you want to exit menu?(yes/no)");
-                        continue_while = Console.ReadLine();
+                        string continue_while = "no";
+                       
                         if (continue_while == "yes")
                         {
                             Console.WriteLine("Im leaving, bye!");
@@ -84,18 +92,23 @@ namespace Library.ConsoleApp
                             if (command == "add an order")
                             {
                                 Console.WriteLine("Attemt to add an order");
+                                ordersService.PlaceOrder();
                             }
                             if (command == "order list")
                             {
                                 Console.WriteLine("Attemt to display all orders");
-                            }
+                                ordersService.ListAll();
 
+                            }
+                            
                             else break;
+                            Console.WriteLine("Do you want to exit menu?(yes/no)");
+                            continue_while = Console.ReadLine();
                         }
                     }
 
 
-                }break;
+                }
 
 
             }

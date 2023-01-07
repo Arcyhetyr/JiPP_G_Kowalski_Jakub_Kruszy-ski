@@ -3,12 +3,20 @@ using Library.Domain;
 using Library.Persistence;
 using System.Collections.Generic;
 using System.Text;
+using System.Globalization;
 
 namespace Library.ConsoleApp
 {
     class BooksService
     {
 
+        private readonly BooksRepository _repository;
+        public BooksService(BooksRepository repository)
+        {
+            _repository = repository;
+        }
+       
+        
         public void AddBook()
         {
             Console.WriteLine("Enter book title:");
@@ -22,10 +30,11 @@ namespace Library.ConsoleApp
             Console.WriteLine("Enter book stock:");
             int stock = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter book price:");
-            decimal price = Convert.ToDecimal(Console.ReadLine());
+            decimal price = Convert.ToDecimal(Console.ReadLine(),CultureInfo.InvariantCulture);
+          // decimal price = decimal.Parse("1200.00", CultureInfo.InvariantCulture);
 
-
-            Book booktoAdd = new Book(title, author, year, isbn, stock, price);
+            Book BookToAdd = new Book(title, author, year, isbn, stock, price);
+            _repository.Insert(BookToAdd);
             //tu bedzie dodawanie
         }
 
@@ -33,6 +42,7 @@ namespace Library.ConsoleApp
         {
             Console.WriteLine("Enter book title to remove:");
             string title = Console.ReadLine();
+            _repository.RemoveByTitle(title);
             //tutaj bedzie usuwanie
 
 
@@ -41,6 +51,11 @@ namespace Library.ConsoleApp
         public void ListBooks()
         {
             Console.WriteLine("Here is the list of books:");
+            List<Book> books = _repository.GetAll();
+            foreach(Book book in books)
+            {
+                Console.WriteLine(book);
+            }
             //tu bedzie  listowanie
 
         }
@@ -48,8 +63,8 @@ namespace Library.ConsoleApp
         {
             Console.WriteLine("Enter book title to change stock:");
             string title = Console.ReadLine();
-            Convert.ToInt32(title);
-            Console.WriteLine("State of title has ben changed and it is: " + title);
+            int stateChange = Convert.ToInt32(Console.ReadLine());
+            _repository.ChangeState(title, stateChange);
             //tu bedzie zmiana
         }
         
