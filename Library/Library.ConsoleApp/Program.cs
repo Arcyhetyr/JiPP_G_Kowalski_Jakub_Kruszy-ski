@@ -16,7 +16,7 @@ namespace Library.ConsoleApp
             OrdersRepository ordersRepository = new OrdersRepository();
             OrderService ordersService = new OrderService(ordersRepository);
 
-            Book book = new Book("Ślepnąc od świateł", "Jakub Żulczyk", 2015, "ISBN", 10, 19.99m);
+            Book book = new Book("Ślepnąc od świateł", "Jakub Żulczyk", 2015, "ISBN", 10, 19.99m, 11);
          
             while (true)
             {
@@ -38,7 +38,7 @@ namespace Library.ConsoleApp
                    
                     while (true)
                     {
-                       // Console.Clear();
+                        Console.Clear();
                         Console.WriteLine("Add - add a book");
                         Console.WriteLine("Del - delete a book");
                         Console.WriteLine("View - Display all books");
@@ -92,6 +92,7 @@ namespace Library.ConsoleApp
                             if (command == "add an order")
                             {
                                 Console.WriteLine("Attemt to add an order");
+
                                 ordersService.PlaceOrder();
                             }
                             if (command == "order list")

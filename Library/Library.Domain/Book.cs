@@ -11,10 +11,11 @@ namespace Library.Domain
 
         public int ProductsAvailable { get; set; }
         public decimal Price { get; set; }
+        public int Id { get; set; }
 
         public Book() { }
 
-        public Book(string title, string author, int publicationYear, string isbn, int productsAvailable, decimal price)
+        public Book(string title, string author, int publicationYear, string isbn, int productsAvailable, decimal price, int id)
         {
             Title = title;
             Author = author;
@@ -22,6 +23,7 @@ namespace Library.Domain
             PublicationYear = publicationYear;
             ProductsAvailable = productsAvailable;
             Price = price;
+            Id = id;
         }
 
         public override string ToString()

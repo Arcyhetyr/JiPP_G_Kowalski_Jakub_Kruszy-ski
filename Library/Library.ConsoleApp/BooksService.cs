@@ -19,6 +19,8 @@ namespace Library.ConsoleApp
         
         public void AddBook()
         {
+            Console.WriteLine("Enter Book ID(currently we have 10 books ID in stock)");
+            int id = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter book title:");
             string title = Console.ReadLine();
             Console.WriteLine("Enter book author:");
@@ -31,9 +33,10 @@ namespace Library.ConsoleApp
             int stock = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter book price:");
             decimal price = Convert.ToDecimal(Console.ReadLine(),CultureInfo.InvariantCulture);
+            
           // decimal price = decimal.Parse("1200.00", CultureInfo.InvariantCulture);
 
-            Book BookToAdd = new Book(title, author, year, isbn, stock, price);
+            Book BookToAdd = new Book(title, author, year, isbn, stock, price, id);
             _repository.Insert(BookToAdd);
             //tu bedzie dodawanie
         }
@@ -63,6 +66,7 @@ namespace Library.ConsoleApp
         {
             Console.WriteLine("Enter book title to change stock:");
             string title = Console.ReadLine();
+            Console.WriteLine("Enter changed stcok: ");
             int stateChange = Convert.ToInt32(Console.ReadLine());
             _repository.ChangeState(title, stateChange);
             //tu bedzie zmiana
